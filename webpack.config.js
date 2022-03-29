@@ -6,7 +6,7 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: "bundle.js",
   },
-  mode: "development",
+  mode: "production",
   resolve: {
     // importした時の拡張子を省いてもokなように記載。import 〇〇 from "./index"だけでokと言うこと。index.jsとしなくて良い。
     extensions: [".ts", ".js"],
