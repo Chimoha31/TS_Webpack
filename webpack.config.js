@@ -8,7 +8,7 @@ module.exports = {
   },
   mode: "development",
   resolve: {
-    // importした時の拡張子を省いてもokなように記載。import 〇〇 from "./index"だけでokと言うことindex.jsとかしなくて良い。
+    // importした時の拡張子を省いてもokなように記載。import 〇〇 from "./index"だけでokと言うこと。index.jsとしなくて良い。
     extensions: [".ts", ".js"],
   },
   // local serverを立ち上げる時に何を見にいくか、どこをweb serverとして立ち上げるか
